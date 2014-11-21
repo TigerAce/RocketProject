@@ -1,0 +1,51 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M (ID=0xde9)
+    Vendor:   NVIDIA
+    VRAM:     977 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading D:\UnityProjects\Rocket\rocket_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.070 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\UnityProjects\Rocket\rocket_Data\Managed\System.dll (this message is harmless)
+WARNING: Shader Unsupported: 'Hidden/Nature/Tree Creator Leaves Optimized' - Pass '' shader state not supported
+WARNING: Shader Unsupported: 'Hidden/TerrainEngine/Details/BillboardWavingDoublePass' - Pass '' shader state not supported
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Physics:IgnoreCollision (UnityEngine.Collider,UnityEngine.Collider,bool)
+  at UnityEngine.Physics.IgnoreCollision (UnityEngine.Collider collider1, UnityEngine.Collider collider2) [0x00000] in <filename unknown>:0 
+  at launch.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Join Lobby
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Creat Room
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Join Room
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Spawn Player
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
