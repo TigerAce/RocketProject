@@ -29,7 +29,8 @@ public class PlayerAttack : MonoBehaviour {
 		if (distance <= 2.5f) {
 			if(direction > 0){
 						PlayerHealth enemyHealth = (PlayerHealth)target.GetComponent ("PlayerHealth");
-						enemyHealth.AlterHealth (-damage);
+						PlayerHealthBar enemyHealthBar = (PlayerHealthBar)target.GetComponent ("PlayerHealthBar");
+						enemyHealth.AlterHealth (-damage,enemyHealthBar);
 			}
 		}
 	}
